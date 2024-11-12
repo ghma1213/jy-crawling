@@ -1,0 +1,46 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 환경 설정 및 가상 환경
+.env
+.venv/
+venv/
+ENV/
+env/
+venv.bak/
+
+# 환경 설정 파일
+*.env
+*.env.*
+*.ini
+*.toml
+
+# 테스트, 로그, 및 결과 파일
+*.log
+*.sqlite3
+*.pkl
+*.db
+*.sqlite
+
+# Jupyter Notebook 체크포인트
+.ipynb_checkpoints/
+
+# 배포 관련 디렉토리
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# mypy 및 Pyre 검사 파일
+.mypy_cache/
+.pyre/
+.pytype/
+
+# PyCharm, VS Code 설정
+.idea/
+.vscode/
+
+# macOS 시스템 파일
+.DS_Store
